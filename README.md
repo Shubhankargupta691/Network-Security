@@ -24,15 +24,7 @@ The Network Security Integration project combines multiple industry-leading secu
   - Azure subscription for Wazuh deployment.
 
 ### Getting Started
-1. Clone the Repository:
-   ```bash
-   https://github.com/Shubhankargupta691/Network-Security.git
-   cd Network-Security
-   ```
-2. Install Dependencies:
-   ```bash
-   sudo apt update && sudo apt install wazuh splunk
-   ```
+
 ### Running Snort
 1. Start Snort:
    ```bash
