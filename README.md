@@ -26,16 +26,13 @@ The Network Security Integration project combines multiple industry-leading secu
 ### Getting Started
 1. Clone the Repository:
    ```bash
-   git clone https://github.com/username/network-security-integration.git
-   cd network-security-integration
+   https://github.com/Shubhankargupta691/Network-Security.git
+   cd Network-Security
    ```
 2. Install Dependencies:
    ```bash
    sudo apt update && sudo apt install wazuh splunk
    ```
-3. Setup Environment Variables:
-   Define required variables in `.env` file for Azure credentials and log paths.
-
 ### Running Snort
 1. Start Snort:
    ```bash
