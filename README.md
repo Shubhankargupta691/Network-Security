@@ -25,31 +25,3 @@ The Network Security Integration project combines multiple industry-leading secu
 
 ### Getting Started
 
-### Running Snort
-1. Start Snort:
-   ```bash
-   snort -i eth0 -c /etc/snort/snort.conf
-   ```
-2. Test Network Traffic:
-   Simulate traffic to validate detection rules.
-
-### Configuration
-- **Wazuh**:
-  - Modify `wazuh.conf` for agent and server settings.
-  - Deploy agents on monitored nodes.
-- **Splunk**:
-  - Configure Splunk forwarders to receive Wazuh logs.
-  - Set up dashboards for visualization.
-- **Suricata and Snort**:
-  - Update configuration files for traffic monitoring rules.
-
-### Custom Rules
-- **Snort Rules**:
-  ```bash
-  alert tcp any any -> any 80 (msg:"HTTP Access Detected"; sid:1000001; rev:1;)
-  ```
-- **Suricata Rules**:
-  ```bash
-  alert icmp any any -> any any (msg:"ICMP Traffic Detected"; sid:1000002; rev:1;)
-  ```
-
